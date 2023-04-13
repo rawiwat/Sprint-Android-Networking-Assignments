@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lambdaschool.httpoperations"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:7:5-74
+8        android:minSdkVersion="21"
+8-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:7:15-41
+9        android:targetSdkVersion="31" />
+9-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:7:42-71
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:5:5-78
+11-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:9:5-34:19
+15        android:allowBackup="true"
+15-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:10:13-39
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.2] /Users/pan/.gradle/caches/transforms-2/files-2.1/d2c0c48cce2b049992a591ce66e96ea2/core-1.0.2/AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:11:13-47
+19        android:label="@string/app_name"
+19-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:12:13-45
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:13:13-58
+21        android:supportsRtl="true"
+21-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:14:13-39
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:15:13-44
+24        <activity android:name="com.lambdaschool.httpoperations.HttpDeleteActivity" >
+24-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:16:9-17:20
+24-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:16:19-53
+25        </activity>
+26        <activity android:name="com.lambdaschool.httpoperations.HttpPutActivity" >
+26-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:18:9-19:20
+26-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:18:19-50
+27        </activity>
+28        <activity android:name="com.lambdaschool.httpoperations.GetPickerActivity" >
+28-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:20:9-21:20
+28-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:20:19-52
+29        </activity>
+30        <activity android:name="com.lambdaschool.httpoperations.HttpPostActivity" >
+30-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:22:9-23:20
+30-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:22:19-51
+31        </activity>
+32        <activity android:name="com.lambdaschool.httpoperations.HttpGetActivity" >
+32-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:24:9-25:20
+32-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:24:19-50
+33        </activity>
+34        <activity
+34-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:26:9-33:20
+35            android:name="com.lambdaschool.httpoperations.MainActivity"
+35-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:26:19-47
+36            android:exported="true" >
+36-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:27:13-36
+37            <intent-filter>
+37-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:28:13-32:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:29:17-68
+38-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:31:17-76
+40-->/Users/pan/dev/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:31:27-74
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>
